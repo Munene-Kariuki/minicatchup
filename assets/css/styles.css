@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav > .logo, .thelinks {
+  margin: 15px;
+}
+
+nav > .logo > h3 {
+  font-size: 30px;
+  color: white;
+}
+
+nav > .thelinks > ul > li {
+  display: inline-block;
+  padding: 10px;
+  color: white;
+}
+
+
+nav > .thelinks > ul > li .submit{
+padding: 10px;
+background-color: blue;
+color: white;
+}
+
+#sectHeader{
+  opacity: 0.8;
+  background-image: url("../images/vadim-kaipov-VS-WRkyuax4-unsplash.jpg");
+  /* background-blend-mode: research on this; and background overlay */
+  background-size: cover;
+  background-position: center center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sectHeader > .header {
+  text-align: center;
+}
+
+#sectHeader > .header > h3 {
+  font-size: 50px;
+}
+
+#sectHeader > .header > h3, p {
+  color: white;
+}
+
+#sectBoutme {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#sectBoutme > .boutme {
+  display: flex;
+}
+
+#sectBoutme > .boutme > .rightside, .leftside{
+  width: 50%;
+}
+
+#sectBoutme > .boutme > .leftside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sectBoutme > .boutme > .rightside {
+padding-right: 30px;
+color: black;
+}
